@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+    font-size: 40px;
+    background-color: burlywood;
+}
+h1{
+   text-decoration:5px black solid underline;
+}
+#game{
+    height:410px;
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+    gap: 10px;
+  }
+.box{
+    height: 120px;
+    width: 120px;
+    font-size:80px;
+    border-radius: 15px;
+    border: none;
+    background-color: white(255, 0, 43);
+ }
+ .box:hover{
+    background-color: rgba(255, 255, 255, 0.106);
+ }
+ .box:active{
+    background-color: gray;
+ }
+ .btn{
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    font-weight: bolder;
+   }
+  .btn:hover{
+    background-color: rgba(128, 128, 128, 0.88);
+   }
+   .btn:active{
+    background-color: white;
+   }
+   .new-btn{
+      height: 50px;
+      width: 130px;
+      border-radius: 10px;
+      border: none;
+      background-color: black;
+      color: white;
+      margin-top: 25px;
+     }
+    .new-btn:hover{
+      background-color: rgba(128, 128, 128, 0.88);
+     }
+     .new-btn:active{
+      background-color: white;
+     }
+     
+     .hide{
+      display: none;
+     }
+   .mode-btn{
+      height: 50px;
+      width: 130px;
+      border-radius: 10px;
+      border: none;
+      background-color: black;
+      color: white;
+      margin-top: 25px;
+      position: absolute;
+      top: 0.1px;
+      right: 10px;
+      font-weight: bolder;
+      /* margin-left: 630px; */
+     }
+    .mode-btn:hover{
+      background-color: rgba(128, 128, 128, 0.88);
+     }
+     .mode-btn:active{
+      background-color: white;
+     }
+     .dark{
+      background-color: black;
+      color: white;
+     }
+     .white{
+      background-color: white;
+      color: black;
+     }
+     .effect:hover{
+      background-color: rgb(128, 128, 128);
+     }
+     
+     
+   
